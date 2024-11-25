@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now!</title>    
+        <style>
+            form{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                gap:10px;
+                border: 5px azure solid;
+                padding: 40px;
+                width: 200px;
+            }
+        body{
+            font-family: sans-serif;
+            background-color:cadetblue;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .d{
+            background-color: azure;
+        }
+       
+        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+    </style>
+</head>
+<body>
+<div class="d">
+    <h1>Register for Soccer Tournament.</h1>
+    </div>
+    <p style="color: aliceblue;">Fill the form below and meet us there.</p>
+    <form>
+        <div>
+        Enter Team Name
+        <input type="text" placeholder="Team Name" required>
+        </div>
+        <div>
+            Enter Team Captain Name
+        <input type="text" placeholder="Team Captain Name" required>
+        </div>
+        <div>
+            Enter Team's Phone Number
+        <input type="number" placeholder="Team's Phone Number" required>
+        </div>
+        <div>
+            Enter Team's email id
+        <input type="email" placeholder="Team's email id" required>
+        </div>
+        <div>
+        Is it a Boys team or a girls team?
+        <input type="radio" name="gender"  value="Boys" required> Boys 
+        <input type="radio" name="gender"  value="Girls" required>Girls
+        </div>
+        
+        <button type="submit" style="width:30%" >Submit</button>
+
+
+    </form>
+    <br>
+    <img src="images/soc.png" alt="Soccer Team" class="center">
+
+</body>
+</html>
